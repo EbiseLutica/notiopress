@@ -1,0 +1,7 @@
+html {
+    font-size: 14px;
+}
+
+body {
+    --shadow-color: rgba(0, 0, 0, 0.05);
+}
