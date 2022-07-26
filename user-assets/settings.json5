@@ -4,24 +4,22 @@
     {
       // ホスト名。ここで設定したホストに合致するリクエストに対し、本サイトをレスポンスとする。
       host: "example.com",
+      // 本サイトのタイトル。
+      title: "開発環境ブログ",
+      // 本サイトのサブタイトル。
+      subTitle: "この環境は開発用ですー。",
+      // 本サイトの著作権表示。
+      copyright: "(C)2022 Xeltica Studio",
       // デフォルトであるかどうか。
       // trueであれば、リクエストがどのホストにも一致しない場合に本サイトをレスポンスとする。
       // default: true が複数あってはならない。エラーとなる。
       default: true,
       // カスタムCSSのパス。user-assetsディレクトリからの相対パス。
       customCss: "",
-      // サイトのメタ情報
-      meta: {
-        // 本サイトの名前。
-        title: "",
-        // 本サイトのサブタイトル。
-        subTitle: "",
-      },
-      // Notion設定
-      notion: {
-        token: "",
-        databaseId: "",
-      },
+      // Notion データベース ID
+      databaseId: "d50242d1f3824274810a034278f986c3",
     }
-  ]
+  ],
+  // Notion APIトークン
+  notionToken: "secret_z5dh3nf168eGmux880j9srNUNQRE7aVR7RaPBIZGKDe",
 }

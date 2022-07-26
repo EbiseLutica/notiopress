@@ -1,6 +1,9 @@
 /** 設定ファイルの型定義 */
 export interface Settings {
-    sites: SiteDefinition;
+    /** サイト一覧 */
+    sites: SiteDefinition[];
+    /** Notion API トークン */
+    notionToken: string;
 }
 
 /** サイト定義 */
@@ -11,18 +14,12 @@ export interface SiteDefinition {
     default: boolean;
     /** CSS ファイルパス */
     customCss?: string;
-    /** サイト設定 */
-    meta: {
-        /** サイト タイトル */
-        title: string;
-        /** サイト サブタイトル */
-        subTitle?: string;
-    };
-    /** Notion 設定 */
-    notion: {
-        /** Notion API トークン */
-        token: string;
-        /** データベース ID */
-        databaseId: string;
-    };
+    /** サイト タイトル */
+    title: string;
+    /** サイト サブタイトル */
+    subTitle?: string;
+    /** サイト 著作権表示 */
+    copyright?: string;
+    /** データベース ID */
+    databaseId: string;
 }
