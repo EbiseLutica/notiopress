@@ -34,4 +34,4 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 
-user-assets/settings.json
+user-assets/settings.json5

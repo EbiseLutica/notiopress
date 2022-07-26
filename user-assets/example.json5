@@ -17,9 +17,9 @@
       // カスタムCSSのパス。user-assetsディレクトリからの相対パス。
       customCss: "",
       // Notion データベース ID
-      databaseId: "d50242d1f3824274810a034278f986c3",
+      databaseId: "",
     }
   ],
   // Notion APIトークン
-  notionToken: "secret_z5dh3nf168eGmux880j9srNUNQRE7aVR7RaPBIZGKDe",
+  notionToken: "",
 }
